@@ -21,10 +21,10 @@ import pygame, math
 # x2 = x + width
 # y2 = y + height
 
-# x1 của rect1 bé hơn x2 của rect2.
-# x1 của rect2 bé hơn x2 của rect1.
-# y1 của rect1 bé hơn y2 của rect2.
-# y1 của rect2 bé hơn y2 của rect1.
+# x1 of rect1 is smaller x2 of rect2
+# x1 of rect2 is smaller x2 of rect1
+# y1 of rect1 is smaller y2 of rect2
+# y1 of rect2 is smaller y2 of rect1
 
 # rect = [x, y, width, height]
 def rectCollision(rect1, rect2):
@@ -37,7 +37,7 @@ def rectCollision(rect1, rect2):
 
 ### Circle ###
 
-# khoảng cách giữa hai tâm bé hơn tổng hai bán kính
+# distance between two centers is less than the sum of the two radii
 
 # center = [x, y]
 # radius = r
@@ -50,6 +50,7 @@ def circleCollision(center1, radius1, center2, radius2):
 ### OBJECT ###
 
 # Va chạm giữa hai hình bất kì
+# kiểm tra vị trí của obj1 có tỉ lệ với obj2 không
 
 # surf = surface
 # pos = [x, y]
