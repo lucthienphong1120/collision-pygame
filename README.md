@@ -43,7 +43,7 @@ collision.objCollision
 # radius = r
 ```
 
-### OBJECT ###
+### OBJECT
 
 ```
 # collision between any two shapes
