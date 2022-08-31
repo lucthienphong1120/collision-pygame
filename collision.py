@@ -1,14 +1,13 @@
 # Conllision Pygame library
 
-# HOW TO USE:
 '''
-import collision
-'''
-
-# FUNCTIONS:
-'''
+# collision between two square objects
 collision.rectCollision(rect1, rect2)
+
+# collision between two circular objects
 collision.circleCollision(center1, radius1, center2, radius2)
+
+# collision between any two objects
 collision.objCollision(surf1, pos1, surf2, pos2)
 '''
 
