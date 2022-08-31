@@ -41,12 +41,12 @@ def circlePlay():
 def objPlay():
     # surf = surface
     # pos = [x, y]
-    surf1 = pygame.image.load('./img/star1.png') # Sao di chuyển
+    surf1 = pygame.image.load('car.png') # vật di chuyển
     surf1 = pygame.transform.scale(surf1, (50, 50))
-    pos1 = [0, 0] # Vị trí sao di chuyển
-    surf2 = pygame.image.load('./img/star2.png') # Sao đứng yên
+    pos1 = [0, 0] # Vị trí vật di chuyển
+    surf2 = pygame.image.load('star1.png') # vật đứng yên
     surf2 = pygame.transform.scale(surf2, (50, 50))
-    pos2 = [180, 180] # Vị trí sao đứng yên
+    pos2 = [180, 180] # Vị trí vật đứng yên
 
     pos1 = pygame.mouse.get_pos() # Lấy vị trí của chuột
 
