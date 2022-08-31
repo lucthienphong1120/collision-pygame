@@ -11,9 +11,9 @@ import collision
 ## Functions
 
 ```py
-collision.rectCollision
-collision.circleCollision
-collision.objCollision
+collision.rectCollision(rect1, rect2)
+collision.circleCollision(center1, radius1, center2, radius2)
+collision.objCollision(surf1, pos1, surf2, pos2)
 ```
 
 ## Principles
