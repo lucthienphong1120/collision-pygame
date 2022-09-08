@@ -56,8 +56,8 @@ def circleCollision(center1, radius1, center2, radius2):
 def objCollision(surf1, pos1, surf2, pos2):
     mask1 = pygame.mask.from_surface(surf1)
     mask2 = pygame.mask.from_surface(surf2)
-    x = pos2[0] - pos1[0]   # xác định vị trí x2 với x1
-    y = pos2[1] - pos1[1]   # xác định vị trí y2 với y1
+    x = int(pos2[0] - pos1[0])   # xác định vị trí x2 với x1
+    y = int(pos2[1] - pos1[1])   # xác định vị trí y2 với y1
     if mask1.overlap(mask2, (x, y)) != None:    # nếu pixel obj2 thuộc obj1
         return True
     return False
